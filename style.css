@@ -16,7 +16,6 @@ body {
   background-color: var(--light-pink);
   font-family: 'Work Sans', sans-serif;
   display: flex;
-  /* align-items: center;*/
   gap: 1.5rem;
   flex-direction: column;
   
@@ -36,7 +35,7 @@ body .backgroundDiv {
   background: var(--white);
   margin: 0 auto;
   margin-top: 7.625rem;
-  max-width: 35rem;
+  max-width: 32.5rem;
   padding: 2.2rem 2rem 1.8rem;
 
   border-radius: 10px;
