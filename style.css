@@ -27,7 +27,7 @@ body .backgroundDiv {
 
   background-image: url('./assets/images/background-pattern-desktop.svg');
   width: 100%;
-  height: 18rem;
+  height: 16rem;
   top: 0;
   z-index: -1;
 }
@@ -35,7 +35,7 @@ body .backgroundDiv {
 .container {
   background: var(--white);
   margin: 0 auto;
-  margin-top: 8rem;
+  margin-top: 7.625rem;
   max-width: 35rem;
   padding: 2.2rem 2rem 1.8rem;
 
@@ -60,7 +60,7 @@ body .backgroundDiv {
   flex-direction: column;
   font-size: 1rem;
   margin-top: 1.5rem;
-  gap: 1rem;
+  gap: .8rem;
 }
 
 .ask-question strong {
@@ -84,14 +84,12 @@ body .backgroundDiv {
   max-height: 0;
   overflow: hidden;
   color: rgba(0, 0, 0, .5);
-  transition: max-height .5s ease-in-out, opacity .2s;
-  opacity: 0;
+  transition: max-height .3s ease-in-out;
 }
 
 .ask-question.active .answers {
   max-height: 25rem;
   color: rgba(0, 0, 0, .5);
-  opacity: 1;
 }
 
 hr {
