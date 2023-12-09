@@ -21,7 +21,7 @@ body {
   
 }
 
-body .backgroundDiv {
+.backgroundDiv {
   position: absolute;
 
   background-image: url('./assets/images/background-pattern-desktop.svg');
